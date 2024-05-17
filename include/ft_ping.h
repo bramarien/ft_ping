@@ -10,6 +10,7 @@
 #include <unistd.h>
 #include <string.h>
 
+
 typedef enum {
     VERBOSE = 1 << 0,
     HELP = 1 << 1,
