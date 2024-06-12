@@ -7,7 +7,7 @@ EXE := $(BIN_DIR)/ft_ping
 SRC := $(wildcard $(SRC_DIR)/*.c)
 OBJ := $(SRC:$(SRC_DIR)/%.c=$(OBJ_DIR)/%.o)
 
-CFLAGS	:= -Wall -Werror -Wextra
+CFLAGS	:= 
 CPPFLAGS := -Iinclude -MMD -MP
 LDFLAGS  := -Llib
 LDLIBS   :=
