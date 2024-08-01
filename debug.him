@@ -1,0 +1,818 @@
+[
+  {
+    "_index": "packets-2024-06-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "eth0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jun 27, 2024 16:07:21.039874838 UTC",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1719504441.039874838",
+          "frame.time_delta": "0.000000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "98",
+          "frame.cap_len": "98",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:data"
+        },
+        "eth": {
+          "eth.dst": "52:54:00:12:35:02",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "RealtekU_12:35:02",
+            "eth.dst.oui": "5395456",
+            "eth.dst.oui_resolved": "Realtek (UpTech? also reported)",
+            "eth.addr": "52:54:00:12:35:02",
+            "eth.addr_resolved": "RealtekU_12:35:02",
+            "eth.addr.oui": "5395456",
+            "eth.addr.oui_resolved": "Realtek (UpTech? also reported)",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "08:00:27:6b:55:2b",
+          "eth.src_tree": {
+            "eth.src_resolved": "PcsCompu_6b:55:2b",
+            "eth.src.oui": "524327",
+            "eth.src.oui_resolved": "PCS Computer Systems GmbH",
+            "eth.addr": "08:00:27:6b:55:2b",
+            "eth.addr_resolved": "PcsCompu_6b:55:2b",
+            "eth.addr.oui": "524327",
+            "eth.addr.oui_resolved": "PCS Computer Systems GmbH",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "84",
+          "ip.id": "0xc5f8",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "10",
+          "ip.proto": "1",
+          "ip.checksum": "0xe0da",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.2.15",
+          "ip.addr": "10.0.2.15",
+          "ip.src_host": "10.0.2.15",
+          "ip.host": "10.0.2.15",
+          "ip.dst": "172.217.16.238",
+          "ip.addr": "172.217.16.238",
+          "ip.dst_host": "172.217.16.238",
+          "ip.host": "172.217.16.238"
+        },
+        "icmp": {
+          "icmp.type": "8",
+          "icmp.code": "0",
+          "icmp.checksum": "0xcdaf",
+          "icmp.checksum.status": "1",
+          "icmp.ident": "16686",
+          "icmp.ident_le": "11841",
+          "icmp.seq": "0",
+          "icmp.seq_le": "0",
+          "icmp.data_time": "Jun 27, 2024 16:07:21.000000000 UTC",
+          "icmp.data_time_relative": "0.039874838",
+          "data": {
+            "data.data": "b4:9b:00:00:00:00:00:00:00:01:02:03:04:05:06:07:08:09:0a:0b:0c:0d:0e:0f:10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27",
+            "data.len": "48"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-06-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "eth0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jun 27, 2024 16:07:21.048616436 UTC",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1719504441.048616436",
+          "frame.time_delta": "0.008741598",
+          "frame.time_delta_displayed": "0.008741598",
+          "frame.time_relative": "0.008741598",
+          "frame.number": "2",
+          "frame.len": "182",
+          "frame.cap_len": "182",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:ip:icmp:data"
+        },
+        "eth": {
+          "eth.dst": "08:00:27:6b:55:2b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "PcsCompu_6b:55:2b",
+            "eth.dst.oui": "524327",
+            "eth.dst.oui_resolved": "PCS Computer Systems GmbH",
+            "eth.addr": "08:00:27:6b:55:2b",
+            "eth.addr_resolved": "PcsCompu_6b:55:2b",
+            "eth.addr.oui": "524327",
+            "eth.addr.oui_resolved": "PCS Computer Systems GmbH",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "52:54:00:12:35:02",
+          "eth.src_tree": {
+            "eth.src_resolved": "RealtekU_12:35:02",
+            "eth.src.oui": "5395456",
+            "eth.src.oui_resolved": "Realtek (UpTech? also reported)",
+            "eth.addr": "52:54:00:12:35:02",
+            "eth.addr_resolved": "RealtekU_12:35:02",
+            "eth.addr.oui": "5395456",
+            "eth.addr.oui_resolved": "Realtek (UpTech? also reported)",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xc0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "168",
+          "ip.id": "0x8cb3",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "9",
+          "ip.proto": "1",
+          "ip.checksum": "0x8455",
+          "ip.checksum.status": "2",
+          "ip.src": "108.170.230.211",
+          "ip.addr": "108.170.230.211",
+          "ip.src_host": "108.170.230.211",
+          "ip.host": "108.170.230.211",
+          "ip.dst": "10.0.2.15",
+          "ip.addr": "10.0.2.15",
+          "ip.dst_host": "10.0.2.15",
+          "ip.host": "10.0.2.15"
+        },
+        "icmp": {
+          "icmp.type": "11",
+          "icmp.code": "0",
+          "icmp.checksum": "0xf4ee",
+          "icmp.checksum.status": "1",
+          "icmp.unused": "00",
+          "icmp.length": "17",
+          "icmp.length.original_datagram": "68",
+          "icmp.unused": "00:00",
+          "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x00",
+            "ip.dsfield_tree": {
+              "ip.dsfield.dscp": "0",
+              "ip.dsfield.ecn": "0"
+            },
+            "ip.len": "84",
+            "ip.id": "0xc5f8",
+            "ip.flags": "0x02",
+            "ip.flags_tree": {
+              "ip.flags.rb": "0",
+              "ip.flags.df": "1",
+              "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "9",
+            "ip.proto": "1",
+            "ip.checksum": "0xe1da",
+            "ip.checksum.status": "2",
+            "ip.src": "10.0.2.15",
+            "ip.addr": "10.0.2.15",
+            "ip.src_host": "10.0.2.15",
+            "ip.host": "10.0.2.15",
+            "ip.dst": "172.217.16.238",
+            "ip.addr": "172.217.16.238",
+            "ip.dst_host": "172.217.16.238",
+            "ip.host": "172.217.16.238"
+          },
+          "icmp": {
+            "icmp.type": "8",
+            "icmp.code": "0",
+            "icmp.checksum": "0xcdaf",
+            "icmp.checksum.status": "2",
+            "icmp.ident": "16686",
+            "icmp.ident_le": "11841",
+            "icmp.seq": "0",
+            "icmp.seq_le": "0",
+            "icmp.data_time": "Jun 27, 2024 16:07:21.000000000 UTC",
+            "icmp.data_time_relative": "0.048616436",
+            "data": {
+              "data.data": "b4:9b:00:00:00:00:00:00:00:01:02:03:04:05:06:07:08:09:0a:0b:0c:0d:0e:0f:10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27",
+              "data.len": "48"
+            }
+          },
+          "icmp.ext": {
+            "icmp.ext.version": "1",
+            "icmp.ext.res": "0x0819",
+            "icmp.ext.checksum": "0x1a1b",
+            "icmp.ext.checksum_tree": {
+              "_ws.expert": {
+                "icmp.ext.checksum_bad": "",
+                "_ws.expert.message": "Bad checksum [should be 0x211a]",
+                "_ws.expert.severity": "6291456",
+                "_ws.expert.group": "16777216"
+              }
+            },
+            "icmp.ext.checksum.status": "0",
+            "Unknown object (30/31) (truncated)": {
+              "icmp.ext.length": "7197",
+              "icmp.ext.class": "30",
+              "icmp.ext.ctype": "31",
+              "icmp.ext.data": "20:21:22:23:24:25:26:27:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:20:00:1d:5a:00:08:01:01:0a:9b:b7:01"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-06-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "eth0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jun 27, 2024 16:07:29.083780527 UTC",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1719504449.083780527",
+          "frame.time_delta": "8.035164091",
+          "frame.time_delta_displayed": "8.035164091",
+          "frame.time_relative": "8.043905689",
+          "frame.number": "3",
+          "frame.len": "98",
+          "frame.cap_len": "98",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:data"
+        },
+        "eth": {
+          "eth.dst": "52:54:00:12:35:02",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "RealtekU_12:35:02",
+            "eth.dst.oui": "5395456",
+            "eth.dst.oui_resolved": "Realtek (UpTech? also reported)",
+            "eth.addr": "52:54:00:12:35:02",
+            "eth.addr_resolved": "RealtekU_12:35:02",
+            "eth.addr.oui": "5395456",
+            "eth.addr.oui_resolved": "Realtek (UpTech? also reported)",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "08:00:27:6b:55:2b",
+          "eth.src_tree": {
+            "eth.src_resolved": "PcsCompu_6b:55:2b",
+            "eth.src.oui": "524327",
+            "eth.src.oui_resolved": "PCS Computer Systems GmbH",
+            "eth.addr": "08:00:27:6b:55:2b",
+            "eth.addr_resolved": "PcsCompu_6b:55:2b",
+            "eth.addr.oui": "524327",
+            "eth.addr.oui_resolved": "PCS Computer Systems GmbH",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "84",
+          "ip.id": "0xc694",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "10",
+          "ip.proto": "1",
+          "ip.checksum": "0xe03e",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.2.15",
+          "ip.addr": "10.0.2.15",
+          "ip.src_host": "10.0.2.15",
+          "ip.host": "10.0.2.15",
+          "ip.dst": "172.217.16.238",
+          "ip.addr": "172.217.16.238",
+          "ip.dst_host": "172.217.16.238",
+          "ip.host": "172.217.16.238"
+        },
+        "icmp": {
+          "icmp.type": "8",
+          "icmp.code": "0",
+          "icmp.checksum": "0x4203",
+          "icmp.checksum.status": "1",
+          "icmp.ident": "16686",
+          "icmp.ident_le": "11841",
+          "icmp.seq": "1",
+          "icmp.seq_le": "256",
+          "icmp.data_time": "Jun 27, 2024 16:07:29.000000000 UTC",
+          "icmp.data_time_relative": "0.083780527",
+          "data": {
+            "data.data": "37:47:01:00:00:00:00:00:00:01:02:03:04:05:06:07:08:09:0a:0b:0c:0d:0e:0f:10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27",
+            "data.len": "48"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-06-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "eth0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jun 27, 2024 16:07:29.092568326 UTC",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1719504449.092568326",
+          "frame.time_delta": "0.008787799",
+          "frame.time_delta_displayed": "0.008787799",
+          "frame.time_relative": "8.052693488",
+          "frame.number": "4",
+          "frame.len": "182",
+          "frame.cap_len": "182",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:ip:icmp:data"
+        },
+        "eth": {
+          "eth.dst": "08:00:27:6b:55:2b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "PcsCompu_6b:55:2b",
+            "eth.dst.oui": "524327",
+            "eth.dst.oui_resolved": "PCS Computer Systems GmbH",
+            "eth.addr": "08:00:27:6b:55:2b",
+            "eth.addr_resolved": "PcsCompu_6b:55:2b",
+            "eth.addr.oui": "524327",
+            "eth.addr.oui_resolved": "PCS Computer Systems GmbH",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "52:54:00:12:35:02",
+          "eth.src_tree": {
+            "eth.src_resolved": "RealtekU_12:35:02",
+            "eth.src.oui": "5395456",
+            "eth.src.oui_resolved": "Realtek (UpTech? also reported)",
+            "eth.addr": "52:54:00:12:35:02",
+            "eth.addr_resolved": "RealtekU_12:35:02",
+            "eth.addr.oui": "5395456",
+            "eth.addr.oui_resolved": "Realtek (UpTech? also reported)",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xc0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "168",
+          "ip.id": "0x8cb7",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "9",
+          "ip.proto": "1",
+          "ip.checksum": "0x8451",
+          "ip.checksum.status": "2",
+          "ip.src": "108.170.230.211",
+          "ip.addr": "108.170.230.211",
+          "ip.src_host": "108.170.230.211",
+          "ip.host": "108.170.230.211",
+          "ip.dst": "10.0.2.15",
+          "ip.addr": "10.0.2.15",
+          "ip.dst_host": "10.0.2.15",
+          "ip.host": "10.0.2.15"
+        },
+        "icmp": {
+          "icmp.type": "11",
+          "icmp.code": "0",
+          "icmp.checksum": "0xf4ee",
+          "icmp.checksum.status": "1",
+          "icmp.unused": "00",
+          "icmp.length": "17",
+          "icmp.length.original_datagram": "68",
+          "icmp.unused": "00:00",
+          "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x00",
+            "ip.dsfield_tree": {
+              "ip.dsfield.dscp": "0",
+              "ip.dsfield.ecn": "0"
+            },
+            "ip.len": "84",
+            "ip.id": "0xc694",
+            "ip.flags": "0x02",
+            "ip.flags_tree": {
+              "ip.flags.rb": "0",
+              "ip.flags.df": "1",
+              "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "9",
+            "ip.proto": "1",
+            "ip.checksum": "0xe13e",
+            "ip.checksum.status": "2",
+            "ip.src": "10.0.2.15",
+            "ip.addr": "10.0.2.15",
+            "ip.src_host": "10.0.2.15",
+            "ip.host": "10.0.2.15",
+            "ip.dst": "172.217.16.238",
+            "ip.addr": "172.217.16.238",
+            "ip.dst_host": "172.217.16.238",
+            "ip.host": "172.217.16.238"
+          },
+          "icmp": {
+            "icmp.type": "8",
+            "icmp.code": "0",
+            "icmp.checksum": "0x4203",
+            "icmp.checksum.status": "2",
+            "icmp.ident": "16686",
+            "icmp.ident_le": "11841",
+            "icmp.seq": "1",
+            "icmp.seq_le": "256",
+            "icmp.data_time": "Jun 27, 2024 16:07:29.000000000 UTC",
+            "icmp.data_time_relative": "0.092568326",
+            "data": {
+              "data.data": "37:47:01:00:00:00:00:00:00:01:02:03:04:05:06:07:08:09:0a:0b:0c:0d:0e:0f:10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27",
+              "data.len": "48"
+            }
+          },
+          "icmp.ext": {
+            "icmp.ext.version": "1",
+            "icmp.ext.res": "0x0819",
+            "icmp.ext.checksum": "0x1a1b",
+            "icmp.ext.checksum_tree": {
+              "_ws.expert": {
+                "icmp.ext.checksum_bad": "",
+                "_ws.expert.message": "Bad checksum [should be 0x211a]",
+                "_ws.expert.severity": "6291456",
+                "_ws.expert.group": "16777216"
+              }
+            },
+            "icmp.ext.checksum.status": "0",
+            "Unknown object (30/31) (truncated)": {
+              "icmp.ext.length": "7197",
+              "icmp.ext.class": "30",
+              "icmp.ext.ctype": "31",
+              "icmp.ext.data": "20:21:22:23:24:25:26:27:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:20:00:1d:5a:00:08:01:01:0a:9b:b7:01"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-06-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "eth0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jun 27, 2024 16:07:34.114569102 UTC",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1719504454.114569102",
+          "frame.time_delta": "5.022000776",
+          "frame.time_delta_displayed": "5.022000776",
+          "frame.time_relative": "13.074694264",
+          "frame.number": "5",
+          "frame.len": "98",
+          "frame.cap_len": "98",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:data"
+        },
+        "eth": {
+          "eth.dst": "52:54:00:12:35:02",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "RealtekU_12:35:02",
+            "eth.dst.oui": "5395456",
+            "eth.dst.oui_resolved": "Realtek (UpTech? also reported)",
+            "eth.addr": "52:54:00:12:35:02",
+            "eth.addr_resolved": "RealtekU_12:35:02",
+            "eth.addr.oui": "5395456",
+            "eth.addr.oui_resolved": "Realtek (UpTech? also reported)",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "08:00:27:6b:55:2b",
+          "eth.src_tree": {
+            "eth.src_resolved": "PcsCompu_6b:55:2b",
+            "eth.src.oui": "524327",
+            "eth.src.oui_resolved": "PCS Computer Systems GmbH",
+            "eth.addr": "08:00:27:6b:55:2b",
+            "eth.addr_resolved": "PcsCompu_6b:55:2b",
+            "eth.addr.oui": "524327",
+            "eth.addr.oui_resolved": "PCS Computer Systems GmbH",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "84",
+          "ip.id": "0xc82b",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "10",
+          "ip.proto": "1",
+          "ip.checksum": "0xdea7",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.2.15",
+          "ip.addr": "10.0.2.15",
+          "ip.src_host": "10.0.2.15",
+          "ip.host": "10.0.2.15",
+          "ip.dst": "172.217.16.238",
+          "ip.addr": "172.217.16.238",
+          "ip.dst_host": "172.217.16.238",
+          "ip.host": "172.217.16.238"
+        },
+        "icmp": {
+          "icmp.type": "8",
+          "icmp.code": "0",
+          "icmp.checksum": "0xf589",
+          "icmp.checksum.status": "1",
+          "icmp.ident": "16686",
+          "icmp.ident_le": "11841",
+          "icmp.seq": "2",
+          "icmp.seq_le": "512",
+          "icmp.data_time": "Jun 27, 2024 16:07:34.000000000 UTC",
+          "icmp.data_time_relative": "0.114569102",
+          "data": {
+            "data.data": "7e:bf:01:00:00:00:00:00:00:01:02:03:04:05:06:07:08:09:0a:0b:0c:0d:0e:0f:10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27",
+            "data.len": "48"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-06-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "eth0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jun 27, 2024 16:07:34.123270720 UTC",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1719504454.123270720",
+          "frame.time_delta": "0.008701618",
+          "frame.time_delta_displayed": "0.008701618",
+          "frame.time_relative": "13.083395882",
+          "frame.number": "6",
+          "frame.len": "182",
+          "frame.cap_len": "182",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:ip:icmp:data"
+        },
+        "eth": {
+          "eth.dst": "08:00:27:6b:55:2b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "PcsCompu_6b:55:2b",
+            "eth.dst.oui": "524327",
+            "eth.dst.oui_resolved": "PCS Computer Systems GmbH",
+            "eth.addr": "08:00:27:6b:55:2b",
+            "eth.addr_resolved": "PcsCompu_6b:55:2b",
+            "eth.addr.oui": "524327",
+            "eth.addr.oui_resolved": "PCS Computer Systems GmbH",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "52:54:00:12:35:02",
+          "eth.src_tree": {
+            "eth.src_resolved": "RealtekU_12:35:02",
+            "eth.src.oui": "5395456",
+            "eth.src.oui_resolved": "Realtek (UpTech? also reported)",
+            "eth.addr": "52:54:00:12:35:02",
+            "eth.addr_resolved": "RealtekU_12:35:02",
+            "eth.addr.oui": "5395456",
+            "eth.addr.oui_resolved": "Realtek (UpTech? also reported)",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xc0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "168",
+          "ip.id": "0x8cbb",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "9",
+          "ip.proto": "1",
+          "ip.checksum": "0x844d",
+          "ip.checksum.status": "2",
+          "ip.src": "108.170.230.211",
+          "ip.addr": "108.170.230.211",
+          "ip.src_host": "108.170.230.211",
+          "ip.host": "108.170.230.211",
+          "ip.dst": "10.0.2.15",
+          "ip.addr": "10.0.2.15",
+          "ip.dst_host": "10.0.2.15",
+          "ip.host": "10.0.2.15"
+        },
+        "icmp": {
+          "icmp.type": "11",
+          "icmp.code": "0",
+          "icmp.checksum": "0xf4ee",
+          "icmp.checksum.status": "1",
+          "icmp.unused": "00",
+          "icmp.length": "17",
+          "icmp.length.original_datagram": "68",
+          "icmp.unused": "00:00",
+          "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x00",
+            "ip.dsfield_tree": {
+              "ip.dsfield.dscp": "0",
+              "ip.dsfield.ecn": "0"
+            },
+            "ip.len": "84",
+            "ip.id": "0xc82b",
+            "ip.flags": "0x02",
+            "ip.flags_tree": {
+              "ip.flags.rb": "0",
+              "ip.flags.df": "1",
+              "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "9",
+            "ip.proto": "1",
+            "ip.checksum": "0xdfa7",
+            "ip.checksum.status": "2",
+            "ip.src": "10.0.2.15",
+            "ip.addr": "10.0.2.15",
+            "ip.src_host": "10.0.2.15",
+            "ip.host": "10.0.2.15",
+            "ip.dst": "172.217.16.238",
+            "ip.addr": "172.217.16.238",
+            "ip.dst_host": "172.217.16.238",
+            "ip.host": "172.217.16.238"
+          },
+          "icmp": {
+            "icmp.type": "8",
+            "icmp.code": "0",
+            "icmp.checksum": "0xf589",
+            "icmp.checksum.status": "2",
+            "icmp.ident": "16686",
+            "icmp.ident_le": "11841",
+            "icmp.seq": "2",
+            "icmp.seq_le": "512",
+            "icmp.data_time": "Jun 27, 2024 16:07:34.000000000 UTC",
+            "icmp.data_time_relative": "0.123270720",
+            "data": {
+              "data.data": "7e:bf:01:00:00:00:00:00:00:01:02:03:04:05:06:07:08:09:0a:0b:0c:0d:0e:0f:10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27",
+              "data.len": "48"
+            }
+          },
+          "icmp.ext": {
+            "icmp.ext.version": "1",
+            "icmp.ext.res": "0x0819",
+            "icmp.ext.checksum": "0x1a1b",
+            "icmp.ext.checksum_tree": {
+              "_ws.expert": {
+                "icmp.ext.checksum_bad": "",
+                "_ws.expert.message": "Bad checksum [should be 0x211a]",
+                "_ws.expert.severity": "6291456",
+                "_ws.expert.group": "16777216"
+              }
+            },
+            "icmp.ext.checksum.status": "0",
+            "Unknown object (30/31) (truncated)": {
+              "icmp.ext.length": "7197",
+              "icmp.ext.class": "30",
+              "icmp.ext.ctype": "31",
+              "icmp.ext.data": "20:21:22:23:24:25:26:27:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:20:00:1d:5a:00:08:01:01:0a:9b:b7:01"
+            }
+          }
+        }
+      }
+    }
+  }
+]

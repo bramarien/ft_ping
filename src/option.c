@@ -1,23 +1,29 @@
 #include <ft_ping.h>
 
-options getOptions(int argc, char **argv, char *flags) {
+struct options getOptions(int argc, char **argv, char *flags) {
 
-    options ret = 0;
+    struct options option;
+    option.flags = 0;
+    option.ttl = DEFAULT_TTL;
     int opt;
 
     while ((opt = getopt(argc, argv, flags)) != -1) {
         switch(opt) {
+            case 't':
+                option.flags |= TTL;
+                option.ttl = atoi(optarg);
+                break;
             case 'v': 
-                ret |= VERBOSE;
+                option.flags |= VERBOSE;
                 break;
             case '?':
                 if (optopt == 0) {
-                    ret |= HELP;
+                    option.flags |= HELP;
                     break;
                 }
                 opterr = 2;
-                return (1);
+                return (option);
         }
     }
-    return (ret);
+    return (option);
 }
